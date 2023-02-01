@@ -4,10 +4,10 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:great_places/models/place.dart';
-import 'package:great_places/provider/great_places.dart';
-import 'package:great_places/widget/image_input.dart';
-import 'package:great_places/widget/location_input.dart';
+import '../models/place.dart';
+import '../provider/great_places.dart';
+import '../widget/image_input.dart';
+import '../widget/location_input.dart';
 import 'package:provider/provider.dart';
 
 class AddPlaceScreen extends StatefulWidget {

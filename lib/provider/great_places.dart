@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:great_places/helpers/location_helper.dart';
-import 'package:great_places/models/place.dart';
-import 'package:great_places/helpers/db_helper.dart';
+import '../helpers/location_helper.dart';
+import '../models/place.dart';
+import '../helpers/db_helper.dart';
 
 class GreatPlaces with ChangeNotifier {
   List<Place> _items = [];
